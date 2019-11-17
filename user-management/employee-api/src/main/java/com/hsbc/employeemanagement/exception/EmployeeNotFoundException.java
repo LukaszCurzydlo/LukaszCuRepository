@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class EmployeeNotFoundException extends RuntimeException {
 
   public EmployeeNotFoundException(Integer id) {
-    super("Employees with following Ids not found : " + id);
+    super("Employees with following Id not found : " + id);
   }
 }
