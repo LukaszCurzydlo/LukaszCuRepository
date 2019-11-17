@@ -46,3 +46,7 @@ JDBC URL  =>  jdbc:h2:mem:testdb
   * 404 - No data found
   * 500 - Internal Server Error
 
+# INTEGRATION TESTS
+
+  MODULE => employee-application
+  CLASS  =>  DatabaseIntegrationTest
